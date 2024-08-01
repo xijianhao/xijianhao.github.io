@@ -1,0 +1,25 @@
+---
+// interface Props {
+//   title: string;
+//   body: string;
+//   href: string;
+// }
+
+const { href, title, body } = Astro.props;
+---
+
+<header class="layout-header">
+  <div>xijianhao</div>
+  <div>share</div>
+</header>
+
+<style>
+  .layout-header {
+    height: 40px;
+    font-size: 1.8rem;
+    background-color: #d5eec5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+</style>
